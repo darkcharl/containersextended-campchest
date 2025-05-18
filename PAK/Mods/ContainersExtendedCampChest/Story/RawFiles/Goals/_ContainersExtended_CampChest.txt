@@ -212,7 +212,7 @@ THEN
 ToInventory((ITEM)_Item, _Container, 1);
 
 IF
-AddedTo(_Item, _Inventory, _)
+AddedTo(_Item, _Chest, _)
 AND
 IsTagged(_Item, (TAG)MELEEWEAPON_c73365d5-38c3-49b4-9542-4f0c1e39c1d8, 1)
 AND
@@ -220,7 +220,7 @@ IsContainer((ITEM)_Chest, 1)
 AND
 DB_Camp_UserCampChest(_,_Chest)
 AND
-GetItemByTemplateInInventory((ITEMROOT)OBJ_ContainersExtended_MeleeWeaponsChest_2e850e24-0c13-49ff-bf51-29948baaf7f4, _Inventory, _Container)
+GetItemByTemplateInInventory((ITEMROOT)OBJ_ContainersExtended_MeleeWeaponsChest_2e850e24-0c13-49ff-bf51-29948baaf7f4, _Chest, _Container)
 THEN
 ToInventory((ITEM)_Item, _Container, 1);
 
