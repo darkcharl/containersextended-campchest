@@ -203,8 +203,9 @@ AddedTo(_Item, _Chest, _)
 AND
 IsTagged(_Item, (TAG)HEADWEAR_d4058e67-954f-46d8-9b0d-4dbc4087a44d, 1)
 AND
-AND
 IsContainer((ITEM)_Chest, 1)
+AND
+DB_Camp_UserCampChest(_,_Chest)
 AND
 GetItemByTemplateInInventory((ITEMROOT)OBJ_ContainersExtended_HeadwearBox_c05b14ba-ac1f-4282-8ccc-ccd05af9ecaa, _Chest, _Container)
 THEN
