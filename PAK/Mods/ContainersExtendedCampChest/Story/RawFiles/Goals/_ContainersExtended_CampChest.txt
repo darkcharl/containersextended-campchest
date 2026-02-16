@@ -99,6 +99,8 @@ AddedTo(_Item, _Chest, _)
 AND
 IsTagged(_Item, (TAG)BOOK_8a8e253a-c081-45a1-9fa2-91b6901dc568, 1)
 AND
+IsTagged(_Item, (TAG)SCROLL_dd86c045-0370-4ec9-b7c5-b0b160706f09, 0)
+AND
 IsContainer((ITEM)_Chest, 1)
 AND
 DB_Camp_UserCampChest(_,_Chest)
@@ -215,6 +217,8 @@ IF
 AddedTo(_Item, _Chest, _)
 AND
 IsTagged(_Item, (TAG)MELEEWEAPON_c73365d5-38c3-49b4-9542-4f0c1e39c1d8, 1)
+AND
+IsTagged(_Item, (TAG)THROWNWEAPON_a9088b32-1917-46ca-9f08-5b0f46a5936a, 0)
 AND
 IsContainer((ITEM)_Chest, 1)
 AND
